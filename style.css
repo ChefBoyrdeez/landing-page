@@ -1,0 +1,32 @@
+.page   {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0px;
+}
+.header {
+    font-size: large;
+    color: whitesmoke;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: navy;
+    flex-wrap: nowrap;
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0px;
+}
+.name   {
+    align-items: flex-start;
+}
+.links {
+    color: whitesmoke;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
