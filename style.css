@@ -1,3 +1,7 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .page   {
     display: flex;
     flex-direction: column;
@@ -7,20 +11,16 @@
 }
 .header {
     font-size: large;
+    justify-content: space-between;
     color: whitesmoke;
     margin: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
     background-color: navy;
     flex-wrap: nowrap;
     width: 100%;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    margin: 0px;
 }
 .name   {
     align-items: flex-start;
